@@ -4,6 +4,7 @@ const app = express()
 
 app.get('/', (req, res) => {
   res.send('Hello World')
+  res.json('rota inicial acessada')
 })
 
 app.listen(3000, () => {
